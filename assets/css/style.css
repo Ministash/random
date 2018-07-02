@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+
+}
+
+body {
+    background: url("../images/background2.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Asap";
+}
+
+.x {
+    -webkit-user-select: none;
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none; 
+  } 
+
+ #welcomeMessage{
+      margin: 0 auto;
+      margin-top: 20px;
+      color: white;
+      width: 65%;
+      font-size: 40px;
+      height: 50px;
+      text-align: center;
+      font-weight: bolder;
+      background: rgba(20, 20, 20, 0.219);
+  }
+
+  .generalWrapper{
+      margin: 0 auto;
+      margin-top: 80px;
+      width: 70%;
+      background: rgba(0, 0, 0, 0.671);
+      min-height: 500px;
+      border: solid 1px white;
+  }
+
+  #artBox1{
+    display: table;
+    border-spacing: 1px;
+    background-color: black;
+    border: 5px solid black;
+
+  }
+
+  .row{
+      display: table-row;
+  }
+
+  .pixel{
+      display: table-cell;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+  }
+
+#colorPicker{
+    width: 50px;
+    height: 50px;
+
+}
+
+#largeButton{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 220px;
+    height: 90px;
+    text-align: center;
+    background: #f7f7f70c;
+    border: solid #818586 2px;
+    line-height: 90px;
+    transition: all 0.2s;
+    color: rgb(105, 16, 74);
+    font-size: 28px;
+    border-radius: 20%;
+    transition: all 0.4s ease;
+}
+
+#largeButton:hover{
+    background: #44263a52;
+    border: solid 2px rgb(255, 255, 255);
+    color: white;
+}
