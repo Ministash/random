@@ -42,6 +42,7 @@ body {
       min-height: 500px;
       padding-bottom: 100px;
       border: solid 1px white;
+      transition-delay: 0.7s;
   }
 
   #gridInformation{
@@ -59,8 +60,8 @@ body {
     margin-top: 50px;
     display: table;
     border-spacing: 1px;
-    background-color: black;
-    border: 5px solid black;
+    background-color: rgba(0, 0, 0, 0.123);
+    border: 5px solid rgba(0, 0, 0, 0.205);
 
   }
 
@@ -79,8 +80,8 @@ body {
   .pixel{
       display: table-cell;
       background-color: white;
-      width: 40px;
-      height: 40px;
+      width: 20px;
+      height: 20px;
   }
 
 
@@ -144,4 +145,12 @@ body {
 
 .slider:active {
     opacity: 1;
+}
+
+#sideBar{
+    background: rgba(43, 43, 43, 0.486);
+    height: 500px;
+    width: 150px;
+    border: 2px solid rgba(83, 46, 83, 0.404);
+    float: left;
 }
